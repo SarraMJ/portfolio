@@ -60,7 +60,7 @@ const home = {
 };
 
 const about = {
-  path: "/about",
+  path: "/",
   label: "About",
   title: `About – ${person.name}`,
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,

@@ -74,20 +74,20 @@ export const Header = () => {
             zIndex={1}
           >
             <Flex gap="4" vertical="center" textVariant="body-default-s" suppressHydrationWarning>
-              {routes["/about"] && (
+              {routes["/"] && (
                 <>
                   <ToggleButton
                     className="s-flex-hide"
                     prefixIcon="person"
-                    href="/about"
+                    href="/"
                     label={about.label}
-                    selected={pathname === "/about"}
+                    selected={pathname === "/"}
                   />
                   <ToggleButton
                     className="s-flex-show"
                     prefixIcon="person"
-                    href="/about"
-                    selected={pathname === "/about"}
+                    href="/"
+                    selected={pathname === "/"}
                   />
                 </>
               )}
