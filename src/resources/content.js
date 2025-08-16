@@ -9,7 +9,7 @@ const person = {
   role: "Senior Software Engineer",
   avatar: "/images/avatar.jpeg",
   email: "ziadtaleb97@gmail.com",
-  location: "Europe/Paris", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Europe/Lyon", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "French", "Arabic"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -92,15 +92,16 @@ const about = {
       {
         company: "Volvo Group",
         timeframe: "July 2025 - Present",
-        role: "Senior Software Engineer",
+        role: "Senior Software Engineer and Scrum Master",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            .NET development for the manufacturing logistics for Renault Trucks team.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Had a portfolio of 10+ applications on which I have done both maintenance and evolutionary features.
+          </>,
+          <>
+            Participated in the design and from scratch development of a modern .NET application.
           </>,
         ],
         images: [
@@ -119,7 +120,7 @@ const about = {
             Migrated from Nhibernate to Entity Framework.
           </>,
           <>
-            Wrote the automated unit tests for the application.
+            Wrote the entirety of the automated unit tests for the application from scratch.
           </>,
           <>
             Developped multiple azure functions.
@@ -238,7 +239,7 @@ const blog = {
 
 const work = {
   path: "/work",
-  label: "Work",
+  label: "Portfolio",
   title: `Projects – ${person.name}`,
   description: `Design and dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
