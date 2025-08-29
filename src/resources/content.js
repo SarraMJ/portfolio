@@ -1,14 +1,14 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Ziad",
-  lastName: "Taleb",
+  firstName: "Sarra",
+  lastName: "Mejri",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Senior Software Engineer",
-  avatar: "/images/avatar.jpeg",
-  email: "ziadtaleb97@gmail.com",
+  role: "Artificial Intelligence Student",
+  avatar: "/images/avatar.jpg",
+  email: "sarra.mejri04@gmail.com",
   location: "Europe/Lyon", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "French", "Arabic"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -30,7 +30,7 @@ const social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/in/ziad-taleb-54948115b/",
+    link: "https://www.linkedin.com/in/sarra-mejri-4179b5293/",
   },
   {
     name: "Email",
@@ -73,7 +73,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com/ziad-taleb-hwntfk",
+    link: "https://cal.com/sarra-mejri-zcejsz",
   },
   intro: {
     display: true,

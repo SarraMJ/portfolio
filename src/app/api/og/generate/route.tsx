@@ -7,9 +7,9 @@ export async function GET(request: Request) {
   const title = searchParams.get("title") || "Portfolio";
 
   const person = {
-    name: "Ziad Taleb",
-    role: "Senior Software Engineer",
-    avatar: "/images/avatar.jpeg", // use a CDN path
+    name: "Sarra Mejri",
+    role: "Artificial Intelligence Engineer",
+    avatar: "/images/avatar.jpg", // use a CDN path
   };
 
   return new ImageResponse(
